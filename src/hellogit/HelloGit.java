@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package hellogit;
-
+    import java.util.Scanner;
 /**
  *
  * @author Student
@@ -15,7 +15,10 @@ public class HelloGit {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner input = new Scanner(System.in);
+        System.out.println("Input Your Name:");
+        String name = input.nextLine();
+        System.out.println("Hello "+ name);
     }
     
 }
